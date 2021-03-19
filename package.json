@@ -2,7 +2,7 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "1",
-  "main": "main.js",
+  "main": "./frontend/js/main.js",
   "dependencies": {
     "aws-sdk": "^2.863.0",
     "esm": "^3.2.25"
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./main.js"
+    "start": "node ./frontend/js/main.js"
   },
   "author": "",
   "license": "ISC"
