@@ -153,6 +153,7 @@ audioSearch.onclick = e => {
 			console.log(s3file["results"]["transcripts"][0]["transcript"])
 			document.getElementById("searchin").value = s3file["results"]["transcripts"][0]["transcript"]
 	});
+
 }
 
 
